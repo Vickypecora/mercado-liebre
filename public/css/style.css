@@ -1,0 +1,55 @@
+header {
+    background-color: #EAC926;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    color: #666;
+}
+
+article {
+    background-color: white;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.descydescr {
+    font-size: 16px;
+}
+
+.descuento {
+    color: #39b54a;
+}
+
+a {
+    text-decoration:none;
+    color: #666;
+}
+
+.verde {
+    color: #39b54a;
+}
+
+.azul {
+    color: #1259c3;
+}
+
+h5 {
+    font-size: 16px;
+}
+
