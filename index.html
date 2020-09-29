@@ -10,12 +10,12 @@
 
 <body>
     <header>
-<img src = "logo-mercado-liebre.svg" alt="">
-<p> Lugar para poner barra de busqueda </p>
+<img src = "logo-mercado-liebre.svg" width= "50%" alt="">
+<p> <input type="text" id="barrabusqueda" placeholder= "Buscar" name="busqueda" class= "w-50"> </p>
 
 <p> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p>
 
-<nav>
+<nav class="hide">
     <ul>
     <li> 
         <a href="#"> Ofertas</a> 
@@ -33,22 +33,68 @@
         <a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a>
     </li>
     <li> 
-        <a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+        <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
     </li>
     <li> 
         <a href ="#">Mis Compras <i class="fas fa-shopping-basket"></i></a>
     </li>
 </ul>
 </nav>
+
+<div class="alinearcentro">
+    <i class="fas fa-bars hamburguer"></i>
+</div>
+
 </header>
-<img src="img-home-banner.jpg" width = "100%">
-
-
 <section>
+    <img src="img-home-banner.jpg" width= "100%" class="banner">
+</section>
 
-<h3> Basado en tu última visita </h3>
+<main>
+    <section class="seccion-principal">
+        <h3 class="seccion-titulos"> Basado en tu última visita </h3>
+        <article class="tarjetadeproductos">
+            <img src= "img-cafetera-moulinex.jpg" width="100%">
+            <p class= "precio"> $6.770 </p>
+            <p class= "descydescr descuento"> 40% OFF </p>
+            <div class= "verde"><i class="fas fa-truck"></i>
+            </div>
+            <P class= "descydescr"> Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</p>
+        </article>
+        
+        <article class="tarjetadeproductos">
+            <img src= "img-macbook-pro-2019.jpg" width="100%"> 
+            <p class = "precio"> $230.000 </p>
+            <p class = "descydescr descuento"> 20% OFF </p>
+            <div class= "verde"><i class="fas fa-truck"></i>
+            </div>
+            <P class = "descydescr"> Macbook Pro 2019 Lorem ipsum, dolor sit amet.</p>
+        </article>
+        
+        <article class="tarjetadeproductos">
+            <img src="img-samsung-galaxy-s10.jpg" width="100%">
+            <p class= "precio"> $70.500 </p>
+            <p class= "descydescr descuento"> 15% OFF </p>
+            <div class= "verde"><i class="fas fa-truck"></i>
+            </div>
+            <P class= "descydescr"> Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</p>
+        </article>
+        
+        <article class="tarjetadeproductos">
+            <img src="img-tv-samsung-smart.jpg" width="100%">
+            <p class= "precio"> $34.000 </p>
+            <p class= "descydescr descuento"> 5% OFF </p>
+            <div class= "verde"><i class="fas fa-truck"></i>
+            </div>
+            <P class= "descydescr"> SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</p>
+        </article>
+    </section>
 
-<article>
+<section class="seccion-principal">
+
+<h4 class="seccion-titulos"> Ofertas </h4>
+
+<article class="tarjetadeproductos">
 <img src= "img-cafetera-moulinex.jpg" width="100%">
 <p class= "precio"> $6.770 </p>
 <p class= "descydescr descuento"> 40% OFF </p>
@@ -56,46 +102,8 @@
 </div>
 <P class= "descydescr"> Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</p>
 </article>
-
-<article>
-<img src= "img-macbook-pro-2019.jpg" width="100%"> 
-<p class = "precio"> $230.000 </p>
-<p class = "descydescr descuento"> 20% OFF </p>
-<div class= "verde"><i class="fas fa-truck"></i>
-</div>
-<P class = "descydescr"> Macbook Pro 2019 Lorem ipsum, dolor sit amet.</p>
-</article>
-
-<article>
-<img src="img-samsung-galaxy-s10.jpg" width="100%">
-<p class= "precio"> $70.500 </p>
-<p class= "descydescr descuento"> 15% OFF </p>
-<div class= "verde"><i class="fas fa-truck"></i>
-</div>
-<P class= "descydescr"> Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</p>
-</article>
-
-<article>
-<img src="img-tv-samsung-smart.jpg" width="100%">
-<p class= "precio"> $34.000 </p>
-<p class= "descydescr descuento"> 5% OFF </p>
-<div class= "verde"><i class="fas fa-truck"></i>
-</div>
-<P class= "descydescr"> SmartTv Samsung 43" Lorem ipsum, dolor sit amet.</p>
-</article>
-
-<h4> Ofertas </h4>
-
-<article>
-<img src= "img-cafetera-moulinex.jpg" width="100%">
-<p class= "precio"> $6.770 </p>
-<p class= "descydescr descuento"> 40% OFF </p>
-<div class= "verde"><i class="fas fa-truck"></i>
-</div>
-<P class= "descydescr"> Cafetera Moulinex Dolce Gusto Lorem ipsum, dolor sit amet.</p>
-</article>
     
-<article>
+<article class="tarjetadeproductos">
 <img src= "img-macbook-pro-2019.jpg" width="100%"> 
 <p class = "precio"> $230.000 </p>
 <p class = "descydescr descuento"> 20% OFF </p>
@@ -104,7 +112,7 @@
 <P class = "descydescr"> Macbook Pro 2019 Lorem ipsum, dolor sit amet.</p>
 </article>
     
-<article>
+<article class="tarjetadeproductos">
 <img src="img-samsung-galaxy-s10.jpg" width="100%">
 <p class= "precio"> $70.500 </p>
 <p class= "descydescr descuento"> 15% OFF </p>
@@ -113,7 +121,7 @@
 <P class= "descydescr"> Teléfono móvil Samsung Galaxy S10 Lorem ipsum, dolor sit amet.</p>
 </article>
     
-<article>
+<article class="tarjetadeproductos">
 <img src="img-tv-samsung-smart.jpg" width="100%">
 <p class= "precio"> $34.000 </p>
 <p class= "descydescr descuento"> 5% OFF </p>
@@ -123,33 +131,40 @@
 </article>  
 
 </section>
+</main>
 
-<article>
+<footer class="piedepagina">
+
+<article class="tarjetadefooter">
 <div class= "azul">
     <i class="fas fa-credit-card"></i>
     </div>
 <h5> Pagá con tarjeta o en efectivo </h5>
-
 <p> Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivoen puntos de
     pago. ¡Y siempre es seguro! </p>
+</article>
 
+<article class="tarjetadefooter">
 <div class= "azul">
     <i class="fas fa-gift"></i>
 </div>
 <h5>Envío gratis desde los $ 2.500 </h5>
-
 <p>Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
     productos. Es un beneficio de MercadoPuntos.</p>
+</article>
 
+<article class="tarjetadefooter">
 <div class = "azul">
     <i class="fas fa-user-shield"></i>
 </div>
 <h5>Seguridad, de principio a fin </h5>
-
 <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
     porque estás siempre prtegid@.</p>
-    
-<p> Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
 </article>
+
+<div>
+<p> Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+</div>
+</footer>
 </body>
 </html>
